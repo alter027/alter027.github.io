@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="block.css">
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+<div style="text-align: left;padding: 15px 0 5px 0">
+  <div class="tblock">
+      <a href="yiching.html" class="bblock">卦辭</a><a href="#" class="bblock">寫卦</a>
+  </div>
+</div>
+
+<div style="text-align:left;">
+
+<!--span-->
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+
+<!--64-->
+      <div class="mySlides fade">
+        <div class="numbertext"> 1 / 64</div>
+        <iframe class="txtframe" src="draft\170910_first.txt" frameborder="0" scrolling="NO"></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext"> 2 / 64</div>
+        <iframe class="txtframe" src="" frameborder="0" scrolling="NO"></iframe>
+      </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html> 

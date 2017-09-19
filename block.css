@@ -1,0 +1,23 @@
+.tblock{
+	text-align: left;
+	border-style: groove;
+	border-color:
+	padding:10px 0; 
+	height: 27px;
+	width: 90px;
+	border-radius: 5%;
+	text-decoration: none;
+}
+.bblock{
+	text-decoration: none;
+	padding: 5px;
+}
+.wblock{
+	padding: 0 2px 2px 0px;
+  	text-decoration: none;
+	border-style: solid;
+}
+a:link {color: gray}
+a:visited {color: black}
+a:hover {color: gray}
+a:active {color: blue}
